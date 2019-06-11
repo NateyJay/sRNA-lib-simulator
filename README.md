@@ -1,11 +1,13 @@
 # sRNA-lib-simulator
 Generates simulated plant sRNA-seq data based on real input libraries
 
-This program is based on a script by my graduate advisor Mike Axtell: https://github.com/MikeAxtell/sim_srna-seq. It's purpose is to produce simulated plant sRNA-seq data sets as might be produced from short read sequencing on an Illumina-type system, but with a traceable origin. This is useful when assaying the quality of an aligner.
+This program is based on a script by my graduate advisor Mike Axtell: https://github.com/MikeAxtell/sim_srna-seq. Its purpose is to produce simulated plant sRNA-seq data sets as might be produced from short read sequencing on an Illumina-type system, but with a traceable origin. This is useful when assaying the quality of an aligner.
 
 This script has several advantages over it's predecessor:
-* Simulations are based on *real* sRNA-seq libraries. This means that reads come from regions of the genome known to produce that size-class of sRNA - This rules out regions which do not produce sRNAs and might skew the simulation.
+* Simulations are based on ***real*** sRNA-seq libraries. This means that reads come from regions of the genome known to produce that size-class of sRNA - This rules out regions which do not produce sRNAs and might skew the simulation.
 * Output provides more files, including FASTA files of reads classified by their multi-mapping status.
+
+This simulator was used extensively in the testing of ShortStack 3.x (https://github.com/MikeAxtell/ShortStack), which can be found in the publication: https://doi.org/10.1534/g3.116.030452.
 
 ## Readme
 
