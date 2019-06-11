@@ -4,8 +4,8 @@ Generates simulated plant sRNA-seq data based on real input libraries
 This program is based on a script by my graduate advisor Mike Axtell: https://github.com/MikeAxtell/sim_srna-seq. It's purpose is to produce simulated plant sRNA-seq data sets as might be produced from short read sequencing on an Illumina-type system, but with a traceable origin. This is useful when assaying the quality of an aligner.
 
 This script has several advantages over it's predecessor:
-*Simulations are based on real sRNA-seq libraries. This means that reads come from regions of the genome known to produce that size-class of sRNA - This rules out regions which do not produce sRNAs and might skew the simulation.
-*Output provides more files, including FASTA files of reads classified by their multi-mapping status.
+* Simulations are based on *real* sRNA-seq libraries. This means that reads come from regions of the genome known to produce that size-class of sRNA - This rules out regions which do not produce sRNAs and might skew the simulation.
+* Output provides more files, including FASTA files of reads classified by their multi-mapping status.
 
 ## Readme
 
